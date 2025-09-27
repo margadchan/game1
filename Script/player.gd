@@ -12,7 +12,7 @@ func player_movement(_delta):
 		velocity.y = 0
 	elif Input.is_action_pressed("ui_left"):
 		velocity.x = -SPEED
-		velocity.y = 0
+		velocity.y = 100
 	elif Input.is_action_pressed("ui_down"):
 		velocity.y = SPEED
 		velocity.x = 0
