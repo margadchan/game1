@@ -1,32 +1,32 @@
 [gd_scene load_steps=30 format=3 uid="uid://dctqkarewg0o0"]
 
-[ext_resource type="Texture2D" uid="uid://cynu8yy3rwrgc" path="res://boss/pixilart-layers/pixil-layer-1.png" id="1_6xxrv"]
+[ext_resource type="Texture2D" uid="uid://ras56yt82mva" path="res://pixilart-layers/pixil-layer-1.png" id="1_6xxrv"]
 [ext_resource type="Script" uid="uid://dqqapww8qlmox" path="res://boss.gd" id="1_skx2t"]
-[ext_resource type="Texture2D" uid="uid://doysp6jwpjuyy" path="res://boss/swipe-frames/pixil-frame-0.png" id="2_kles1"]
-[ext_resource type="Texture2D" uid="uid://cmlnian87msgh" path="res://boss/fireball/pixil-frame-0.png" id="2_rdfxm"]
-[ext_resource type="Texture2D" uid="uid://dmi7dwv33mxpm" path="res://boss/pixilart-layers/pixil-layer-2.png" id="2_skx2t"]
-[ext_resource type="Texture2D" uid="uid://c0l0hbukulk01" path="res://boss/fireball/pixil-frame-1.png" id="3_cm1kr"]
-[ext_resource type="Texture2D" uid="uid://dt4d8avuv8iwp" path="res://boss/swipe-frames/pixil-frame-1.png" id="3_etj48"]
-[ext_resource type="Texture2D" uid="uid://bf8gjt5wfhx5h" path="res://boss/fireball/pixil-frame-2.png" id="4_akhi5"]
-[ext_resource type="Texture2D" uid="uid://dn2tjyqw7urjg" path="res://boss/swipe-frames/pixil-frame-2.png" id="4_h3lj5"]
-[ext_resource type="Texture2D" uid="uid://df5iyefhytydh" path="res://boss/swipe-frames/pixil-frame-3.png" id="5_1s1j2"]
-[ext_resource type="Texture2D" uid="uid://b1e2psygoc2gl" path="res://boss/fireball/pixil-frame-3.png" id="5_vwlhh"]
-[ext_resource type="Texture2D" uid="uid://dj4ssnwa0j0q5" path="res://boss/swipe-frames/pixil-frame-4.png" id="6_km2bi"]
-[ext_resource type="Texture2D" uid="uid://ccddy0e1v8qhb" path="res://boss/fireball/pixil-frame-4.png" id="6_xvkcc"]
-[ext_resource type="Texture2D" uid="uid://dokr378cw5l8r" path="res://boss/fireball/pixil-frame-5.png" id="7_oehbi"]
-[ext_resource type="Texture2D" uid="uid://c2d4kcrjpie1o" path="res://boss/swipe-frames/pixil-frame-5.png" id="7_u0duv"]
-[ext_resource type="Texture2D" uid="uid://bchbb1pb1qi73" path="res://boss/fireball/pixil-frame-6.png" id="8_b3701"]
-[ext_resource type="Texture2D" uid="uid://buwamu6y04pop" path="res://boss/swipe-frames/pixil-frame-6.png" id="8_lc4na"]
-[ext_resource type="Texture2D" uid="uid://b46bwuhfdcchj" path="res://boss/fireball/pixil-frame-7.png" id="9_7b5wb"]
-[ext_resource type="Texture2D" uid="uid://b640ox0prelxn" path="res://boss/fireball/pixil-frame-8.png" id="10_eeb72"]
-[ext_resource type="Texture2D" uid="uid://21n3suwe2yt4" path="res://boss/fireball/pixil-frame-9.png" id="11_fdn2a"]
-[ext_resource type="Texture2D" uid="uid://cgvb23h1gvxc8" path="res://boss/fireball/pixil-frame-10.png" id="12_vvoe5"]
-[ext_resource type="Texture2D" uid="uid://bl2ioh5e1biiy" path="res://boss/fireball/pixil-frame-11.png" id="13_x1mfc"]
-[ext_resource type="Texture2D" uid="uid://dveyinahubcca" path="res://boss/fireball/pixil-frame-12.png" id="14_vomys"]
-[ext_resource type="Texture2D" uid="uid://bqaa50qofjxak" path="res://boss/fireball/pixil-frame-13.png" id="15_cas4q"]
-[ext_resource type="Texture2D" uid="uid://daie8uaaiwdsd" path="res://boss/fireball/pixil-frame-14.png" id="16_vxe4g"]
-[ext_resource type="Texture2D" uid="uid://b2q0o771xpob1" path="res://boss/fireball/pixil-frame-15.png" id="17_fr5wv"]
-[ext_resource type="Texture2D" uid="uid://b2d6exjcsdgwi" path="res://boss/fireball/pixil-frame-16.png" id="18_44gid"]
+[ext_resource type="Texture2D" uid="uid://doysp6jwpjuyy" path="res://swipe-frames/pixil-frame-0.png" id="2_kles1"]
+[ext_resource type="Texture2D" uid="uid://enmy8jnaburf" path="res://fireball/pixil-frame-0.png" id="2_rdfxm"]
+[ext_resource type="Texture2D" uid="uid://16kg22xr8276" path="res://pixilart-layers/pixil-layer-2.png" id="2_skx2t"]
+[ext_resource type="Texture2D" uid="uid://2ym3b6d0ffh7" path="res://fireball/pixil-frame-1.png" id="3_cm1kr"]
+[ext_resource type="Texture2D" uid="uid://dt4d8avuv8iwp" path="res://swipe-frames/pixil-frame-1.png" id="3_etj48"]
+[ext_resource type="Texture2D" uid="uid://dewk3sha4njbd" path="res://fireball/pixil-frame-2.png" id="4_akhi5"]
+[ext_resource type="Texture2D" uid="uid://dn2tjyqw7urjg" path="res://swipe-frames/pixil-frame-2.png" id="4_h3lj5"]
+[ext_resource type="Texture2D" uid="uid://df5iyefhytydh" path="res://swipe-frames/pixil-frame-3.png" id="5_vwlhh"]
+[ext_resource type="Texture2D" uid="uid://rolvsvj74scn" path="res://fireball/pixil-frame-3.png" id="5_xvkcc"]
+[ext_resource type="Texture2D" uid="uid://bd50sgjmq36wb" path="res://fireball/pixil-frame-4.png" id="6_oehbi"]
+[ext_resource type="Texture2D" uid="uid://dj4ssnwa0j0q5" path="res://swipe-frames/pixil-frame-4.png" id="6_xvkcc"]
+[ext_resource type="Texture2D" uid="uid://cwcnsvv31scth" path="res://fireball/pixil-frame-5.png" id="7_b3701"]
+[ext_resource type="Texture2D" uid="uid://c2d4kcrjpie1o" path="res://swipe-frames/pixil-frame-5.png" id="7_u0duv"]
+[ext_resource type="Texture2D" uid="uid://dm7xvbhja4xdb" path="res://fireball/pixil-frame-6.png" id="8_7b5wb"]
+[ext_resource type="Texture2D" uid="uid://buwamu6y04pop" path="res://swipe-frames/pixil-frame-6.png" id="8_lc4na"]
+[ext_resource type="Texture2D" uid="uid://cormpn8k0oen8" path="res://fireball/pixil-frame-7.png" id="9_7b5wb"]
+[ext_resource type="Texture2D" uid="uid://cxlu7g43jayn4" path="res://fireball/pixil-frame-8.png" id="10_eeb72"]
+[ext_resource type="Texture2D" uid="uid://bapm6d63ym8g4" path="res://fireball/pixil-frame-9.png" id="11_fdn2a"]
+[ext_resource type="Texture2D" uid="uid://bbpas1yepjtii" path="res://fireball/pixil-frame-10.png" id="12_vvoe5"]
+[ext_resource type="Texture2D" uid="uid://d2dveuqps68d4" path="res://fireball/pixil-frame-11.png" id="13_x1mfc"]
+[ext_resource type="Texture2D" uid="uid://bm5px7bjxr2v8" path="res://fireball/pixil-frame-12.png" id="14_vomys"]
+[ext_resource type="Texture2D" uid="uid://c01jwq4ysc6o3" path="res://fireball/pixil-frame-13.png" id="15_cas4q"]
+[ext_resource type="Texture2D" uid="uid://cvfbrbltu2y8u" path="res://fireball/pixil-frame-14.png" id="16_vxe4g"]
+[ext_resource type="Texture2D" uid="uid://bfdyxs55erbei" path="res://fireball/pixil-frame-15.png" id="17_fr5wv"]
+[ext_resource type="Texture2D" uid="uid://cmmgyauc41fwu" path="res://fireball/pixil-frame-16.png" id="18_44gid"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_lnbgr"]
 animations = [{
@@ -41,16 +41,16 @@ animations = [{
 "texture": ExtResource("4_akhi5")
 }, {
 "duration": 0.5,
-"texture": ExtResource("5_vwlhh")
+"texture": ExtResource("5_xvkcc")
 }, {
 "duration": 0.5,
-"texture": ExtResource("6_xvkcc")
+"texture": ExtResource("6_oehbi")
 }, {
 "duration": 0.5,
-"texture": ExtResource("7_oehbi")
+"texture": ExtResource("7_b3701")
 }, {
 "duration": 0.5,
-"texture": ExtResource("8_b3701")
+"texture": ExtResource("8_7b5wb")
 }, {
 "duration": 0.5,
 "texture": ExtResource("9_7b5wb")
@@ -58,28 +58,28 @@ animations = [{
 "duration": 0.5,
 "texture": ExtResource("10_eeb72")
 }, {
-"duration": 1.0,
+"duration": 0.5,
 "texture": ExtResource("11_fdn2a")
 }, {
-"duration": 1.0,
+"duration": 0.5,
 "texture": ExtResource("12_vvoe5")
 }, {
-"duration": 1.0,
+"duration": 0.5,
 "texture": ExtResource("13_x1mfc")
 }, {
-"duration": 1.0,
+"duration": 0.5,
 "texture": ExtResource("14_vomys")
 }, {
-"duration": 1.0,
+"duration": 0.9,
 "texture": ExtResource("15_cas4q")
 }, {
-"duration": 1.0,
+"duration": 0.5,
 "texture": ExtResource("16_vxe4g")
 }, {
-"duration": 1.0,
+"duration": 0.5,
 "texture": ExtResource("17_fr5wv")
 }, {
-"duration": 1.0,
+"duration": 0.5,
 "texture": ExtResource("18_44gid")
 }],
 "loop": true,
@@ -97,10 +97,10 @@ animations = [{
 "texture": ExtResource("4_h3lj5")
 }, {
 "duration": 0.5,
-"texture": ExtResource("5_1s1j2")
+"texture": ExtResource("5_vwlhh")
 }, {
 "duration": 0.5,
-"texture": ExtResource("6_km2bi")
+"texture": ExtResource("6_xvkcc")
 }, {
 "duration": 0.5,
 "texture": ExtResource("7_u0duv")
@@ -139,7 +139,7 @@ metadata/_edit_group_ = true
 scale = Vector2(0.4, 0.4)
 sprite_frames = SubResource("SpriteFrames_lnbgr")
 animation = &"fireball"
-frame_progress = 0.4987961
+frame_progress = 0.9361877
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-2, 16)
