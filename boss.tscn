@@ -1,4 +1,4 @@
-[gd_scene load_steps=30 format=3 uid="uid://dctqkarewg0o0"]
+[gd_scene load_steps=33 format=3 uid="uid://dctqkarewg0o0"]
 
 [ext_resource type="Texture2D" uid="uid://ras56yt82mva" path="res://pixilart-layers/pixil-layer-1.png" id="1_6xxrv"]
 [ext_resource type="Script" uid="uid://dqqapww8qlmox" path="res://boss.gd" id="1_skx2t"]
@@ -27,6 +27,9 @@
 [ext_resource type="Texture2D" uid="uid://4bij8xl7l6lw" path="res://fireball/fireball/pixil-frame-14.png" id="16_vxe4g"]
 [ext_resource type="Texture2D" uid="uid://cipdgmgcm4ojt" path="res://fireball/fireball/pixil-frame-15.png" id="17_fr5wv"]
 [ext_resource type="Texture2D" uid="uid://cuqbs2jlxidt4" path="res://fireball/fireball/pixil-frame-16.png" id="18_44gid"]
+[ext_resource type="Texture2D" uid="uid://6n8dx2qpryde" path="res://healthbar.png" id="28_vwlhh"]
+[ext_resource type="Texture2D" uid="uid://c1rmhqp7spa5y" path="res://healthRed.png" id="29_xvkcc"]
+[ext_resource type="Script" uid="uid://de65aikh6iwu5" path="res://texture_progress_bar.gd" id="30_oehbi"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_lnbgr"]
 animations = [{
@@ -129,7 +132,7 @@ radius = 108.0
 height = 220.0
 
 [node name="boss" type="RigidBody2D"]
-position = Vector2(450, 150)
+position = Vector2(681, 289)
 collision_mask = 0
 gravity_scale = 0.0
 script = ExtResource("1_skx2t")
@@ -145,3 +148,18 @@ position = Vector2(-2, 16)
 shape = SubResource("CapsuleShape2D_6xxrv")
 
 [node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="TextureProgressBar" type="TextureProgressBar" parent="CanvasLayer"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -527.7499
+offset_right = 527.7499
+offset_bottom = 1000.0
+grow_horizontal = 2
+scale = Vector2(0.4, 0.4)
+texture_under = ExtResource("28_vwlhh")
+texture_progress = ExtResource("29_xvkcc")
+script = ExtResource("30_oehbi")
